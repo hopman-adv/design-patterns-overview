@@ -1,12 +1,18 @@
-package creational.a_simpleFactory
+package creational.a_factoryMethod
+//Factory umožňuje 
+
 
     private lateinit var dialog: Dialog
-    fun runFactoryDemo() {
-        val demo = FactoryDemo()
+    fun runFactoryMethodDemo() {
+        println("-----------------------------------------------------------------------")
+        println("Running Factory Method Demo...")
+        val demo = FactoryMethodDemo()
         demo.configure()
         demo.runBusinessLogic()
+        println("Ending Factory Method Demo...")
+        println("-----------------------------------------------------------------------")
     }
-class FactoryDemo {
+class FactoryMethodDemo {
 
     fun configure() {
         println("OS is: ${System.getProperty("os.name")}")

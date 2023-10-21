@@ -1,4 +1,4 @@
-package creational.a_simpleFactory
+package creational.a_factoryMethod
 
 abstract class Dialog {
     fun renderWindow() {

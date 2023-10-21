@@ -1,4 +1,4 @@
-package creational.a_simpleFactory
+package creational.a_factoryMethod
 
 interface Button {
     fun render()

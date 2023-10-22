@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89cc7316-64a4-498d-934e-4d10ff45fbcf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/creational/b_abstractFactory/AbstractFactoryDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/creational/b_abstractFactory/Checkbox.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/creational/b_abstractFactory/GUIFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/creational/c_builder/Builder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/creational/c_builder/BuilderDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/creational/c_builder/Car.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/creational/c_builder/CarBuilder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/creational/c_builder/CarComponents.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/creational/c_builder/CarManualBuilder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/creational/c_builder/Director.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/creational/a_simpleFactory/Button.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/creational/a_factoryMethod/Button.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/creational/a_simpleFactory/Dialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/creational/a_factoryMethod/Dialog.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/creational/a_simpleFactory/FactoryDemo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/creational/a_factoryMethod/FactoryMethodDemo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/creational/a_factoryMethod/FactoryMethodDemo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/creational/a_factoryMethod/FactoryMethodDemo.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,9 +83,16 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="creational.c_builder.components" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="creational.c_builder" />
       <recent name="creational.a_simpleFactory" />
       <recent name="creational.a_simpleFactory.factory" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="creational.c_builder" />
     </key>
   </component>
   <component name="RunManager">

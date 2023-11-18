@@ -1,11 +1,16 @@
-import creational.a_factoryMethod.runFactoryMethodDemo
-import creational.b_abstractFactory.runAbstractFactoryDemo
-import creational.c_builder.runBuilderDemo
+import d_singleton.DemoSingletons.*
+import structural.a_adapter.runAdapterDemo
 
 fun main(args: Array<String>) {
     println("Running design patterns app!")
 
 //    runFactoryMethodDemo()
 //    runAbstractFactoryDemo()
-    runBuilderDemo()
+//    runBuilderDemo()
+
+//    runJavaNaiveSingletonSingleThread()
+//    runJavaNaiveSingletonMultiThread()
+//    runJavaSafeSingletonMultiThread()
+
+runAdapterDemo()
 }

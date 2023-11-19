@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89cc7316-64a4-498d-934e-4d10ff45fbcf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/d_singleton/DemoSingletons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/d_singleton/NaiveSingletonInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/d_singleton/ThreadSaveSingletonWithLazyLoadingInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/creational/d_singleton/Singleton.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/a_adapter/AdapterDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/a_adapter/RoundHole.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/a_adapter/RoundPeg.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/a_adapter/SquarePeg.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/a_adapter/SquarePegToRoundPegAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/b_bridge/BridgeDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/b_bridge/devices/Device.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/b_bridge/devices/Radio.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/b_bridge/devices/Tv.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/b_bridge/remotes/AdvancedRemote.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/b_bridge/remotes/BasicRemote.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/b_bridge/remotes/Remote.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/structural/a_adapter/AdapterDemo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/structural/a_adapter/AdapterDemo.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +60,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Interface" />
         <option value="Class" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -94,6 +93,7 @@
       <recent name="creational.c_builder.components" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="structural.b_bridge.devices" />
       <recent name="creational.c_builder" />
       <recent name="creational.a_simpleFactory" />
       <recent name="creational.a_simpleFactory.factory" />
@@ -107,6 +107,11 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="JavaSingleton" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="MainKt" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
